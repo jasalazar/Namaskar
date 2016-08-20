@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title><%=typeof title == 'undefined' ? 'New Sails App' : title%></title>
+        <title>Namaskar</title>
+        <!-- <title><%=typeof title == 'undefined' ? 'New Sails App' : title%></title> -->
 
         <!-- Viewport mobile tag for sensible mobile support -->
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -14,7 +15,7 @@
 
         <!-- Icons -->
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        
+
         <!--
             Stylesheets and Preprocessors
             ==============================
@@ -37,14 +38,17 @@
         -->
 
         <!--STYLES-->
+        <link rel="stylesheet" href="/styles/footer.css">
+        <link rel="stylesheet" href="/styles/header.css">
         <link rel="stylesheet" href="/styles/importer.css">
+        <link rel="stylesheet" href="/styles/materialize.min.css">
         <!--STYLES END-->
     </head>
 
     <body>
         <%- body %>
 
-
+        <%- include ../assets/templates/header.html %>       
 
         <!--
             Client-side Templates
@@ -68,7 +72,7 @@
         -->
 
         <!--TEMPLATES-->
-        
+        <script type="text/javascript" src="/jst.js"></script>
         <!--TEMPLATES END-->
 
 
@@ -97,6 +101,9 @@
 
         <!--SCRIPTS-->
         <script src="/js/dependencies/sails.io.js"></script>
+        <script src="/js/jquery-1.11.3.min.js"></script>
+        <script src="/js/materialize.min.js"></script>
+        <script src="/js/namaskar.js"></script>
         <!--SCRIPTS END-->
     </body>
 </html>

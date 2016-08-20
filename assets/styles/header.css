@@ -1,0 +1,34 @@
+.navHeader {
+	background-color: #1AD2B8 !important;
+}
+
+.titulo {
+	color: black !important;
+	font-size: 26px !important;
+}
+
+.font {
+	color: black !important;
+	font-size: 18px;
+}
+
+.roundMenu {
+	position: absolute !important;
+	float: right;
+	right: -175% !important;
+}
+
+.roundMenu > li {
+	margin: none !important;
+}
+
+.circulo {
+	width: 99% !important;
+	height: 99% !important;
+}
+
+.centrado {
+	margin-top: 0 !important;
+	margin-bottom: 0 !important;
+	margin-right: 2% !important;
+}
