@@ -25,6 +25,7 @@
 .circulo {
 	width: 99% !important;
 	height: 99% !important;
+	background-color: white;
 }
 
 .centrado {
@@ -32,3 +33,8 @@
 	margin-bottom: 0 !important;
 	margin-right: 2% !important;
 }
+
+.btn-floating.btn-large {
+	background-color: white !important;
+}
+
